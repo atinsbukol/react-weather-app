@@ -6,19 +6,14 @@ export default function WeatherTemperature (props) {
     function showFahrenheit (event) {
         event.preventDefault()
         setUnit("fahrenheit")
-
     }
-
     function showCelsius (event) {
         event.preventDefault()
         setUnit("celsius")
-
     }
-
     function fahrenheit () {
         return  (props.celsius * 9/5) +32
     }
-
     if (unit === "celsius") {
         return (
         <div className="WeatherTemperature">
@@ -29,9 +24,7 @@ export default function WeatherTemperature (props) {
             </span>
         </div>
     )
-
     } else {
-        
         return (
         <div className="WeatherTemperature">
             <span className="float-left">
@@ -41,6 +34,5 @@ export default function WeatherTemperature (props) {
             </span>
         </div>
     )
-    }
-    
+    } 
 }

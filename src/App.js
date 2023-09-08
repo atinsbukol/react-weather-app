@@ -10,7 +10,8 @@ export default function App() {
       <Weather defaultCity= "Ife"/>
       <footer>
         This project was created by Bukola Agunbiade and it is {" "}
-      <a href="https://github.com/atinsbukol/react-weather-app" target='_blank' rel='noreferrer'>open-sourced on Github</a>
+      <a href="https://github.com/atinsbukol/react-weather-app" target='_blank' rel='noreferrer'>open-sourced on Github</a> and 
+      <a href="https://gilded-lebkuchen-8c248f.netlify.app/"  target='_blank' rel='noreferrer'> hosted on Netlify</a>
       </footer>
       </div>
     </div>
